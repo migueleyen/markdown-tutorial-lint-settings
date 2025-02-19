@@ -1,0 +1,16 @@
+{
+  "name": "markdown_md_worksheets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mdlint:issues":"markdownlint-cli2 ./docs/fixed",
+    "mdlint:fix":"markdownlint-cli2 --fix ./docs/fixed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "markdownlint-cli2": "^0.17.2"
+  }
+}
